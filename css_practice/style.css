@@ -1,0 +1,17 @@
+h1 {
+    font-family: Tahoma;
+    font-size: 30px;
+    color: #777777;
+    text-align: center;
+}
+
+ol {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4rem;
+    color: #748493;
+}
+
+.learn-more-btn {
+    background-color: #2F91FB;
+    color: white;
+  }
