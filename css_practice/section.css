@@ -1,0 +1,28 @@
+.index, .footer {
+    background-color: #f1f1f1;
+    border: 1px solid grey;
+}
+
+.index p:first-child {
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ol li:hover {
+    cursor: pointer;
+    opacity: .6;
+    transition: .2s ease all;
+}
+
+ol li {
+    transition: .2s ease all;
+}
+
+ul ::before {
+    content: "☑️";
+}
