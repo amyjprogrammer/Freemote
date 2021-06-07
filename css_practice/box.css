@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+
+.box {
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px 10px;
+    margin: 20px;
+}
+
+.box-1 {
+    background-color: cornflowerblue;
+}
+
+.box-2 {
+    background-color: rgba(146, 23, 23, 0.808);
+}
+
+.box-3 {
+    background-color: rgba(4, 128, 0, 0.89);
+}
+
+.container {
+    margin: 10vw;
+}
