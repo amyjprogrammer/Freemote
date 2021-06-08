@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    display: block;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3, h5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+.title-section {
+    margin: 100px auto 0;
+    padding-bottom: 50px;
+    border-bottom: 1px solid gray;
+}
+
+.header-section {
+    justify-content: space-between;
+    display: flex;
+    padding: 20px 0px;
+
+}
+
+img {
+    border: 1px solid grey;
+}
+
+.header-title {
+    display: block;
+    margin: 30px 10px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.header-title h2, .header-title h5 {
+    margin: 10px; 
+}
+
+.author-info {
+    display: flex;  
+    margin: 10px 0px;
+}
+
+.avatar img {
+    border-radius: 50%;
+    padding-right: 10px;
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+.body-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.box {
+    width: 31%;
+}
+
+.body-style h3, .body-style h5 {
+    margin: 10px 0px;
+}
+
+
+
+

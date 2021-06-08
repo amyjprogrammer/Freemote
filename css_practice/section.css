@@ -7,10 +7,16 @@
     font-weight: bold;
     font-style: italic;
     margin-left: 20px;
+    font-size: 2rem;
 }
 
 ul {
     list-style-type: none;
+}
+
+ol li {
+    opacity: 1;
+    transition: .2s ease all;
 }
 
 ol li:hover {
@@ -19,10 +25,9 @@ ol li:hover {
     transition: .2s ease all;
 }
 
-ol li {
-    transition: .2s ease all;
-}
+
 
 ul ::before {
     content: "☑️";
+  
 }
