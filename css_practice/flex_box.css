@@ -9,12 +9,14 @@
     background-image: url("https://assets.codepen.io/6060109/window.jpg" );
     background-size: 100%;
     background-position: center;
+    position: relative;
 }
 
 h4 {
     position: absolute;
-    top: 60px;
-    left: 425px;
+    top: 30%;
+    left: 45%;
+    transform: translateX(-20%);
 }
 
 .section {
@@ -60,5 +62,6 @@ h4 {
 .box-ctr-3 {
     flex-direction: column;
     align-items: flex-end;
+    
     
 }
