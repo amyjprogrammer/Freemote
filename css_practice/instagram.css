@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f8f8ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.container {
+    width: 350px;
+    height: 600px;
+    
+}
+
+.inside-ctr {
+    padding: 10px 10px;
+    box-sizing: border-box;
+    align-items: center;
+   
+}
+
+.inst-container {
+    height: 350px; 
+    padding: 15px 30px;  
+    border: 1px solid darkgray;
+    background-color: white;
+    margin-top: 10%;
+    
+    
+}
+
+.sign-up-ctr {
+    height: 75px;
+    border: 1px solid darkgray;
+    background-color: white;
+    margin-top: 3%;
+
+}
+
+.get-app-ctr {
+    align-items: center;
+    height: 10%;
+    
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 2.7rem;
+    text-align: center; 
+    margin: 10px 0 35px;  
+}
+
+input[type="password"], input[type="email"] {
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    margin: 5px 0; 
+    width: 100%;
+    padding: 8px 1px;
+    align-items: flex-start;
+    background-color: #f8f8ff;
+}
+
+input[type="password"]:focus, input[type="email"]:focus {
+    outline: none;
+    border: 1px solid darkgray;   
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    width: 100%;
+    padding: 6px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(121, 182, 240, 0.45);
+    color: white;
+}
+
+.fancy {
+    line-height: 0.8;
+    text-align: center;
+    color: rgb(187, 184, 184);
+    margin: 20px 0;
+    font-size: .8rem;
+  }
+  .fancy span {
+    display: inline-block;
+    position: relative;  
+  }
+  .fancy span:before,
+  .fancy span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid rgb(187, 184, 184);   
+    top: 0;
+    width: 105px;
+  }
+  .fancy span:before {
+    right: 100%;
+    margin-right: 15px;
+  }
+  .fancy span:after {
+    left: 100%;
+    margin-left: 15px;
+  }
+
+  .login-ctr {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #385185;
+    font-weight: 550;
+    padding-bottom: 15px;
+}
+
+  img {
+    height: 27px;
+    width: 27px;
+    position: relative;    
+    margin-right: 10px;
+    bottom: -5px;
+      
+  }
+
+  .pw-ctr {
+      font-size: .8rem;
+      font-weight: 400;
+  }
+
+ 
