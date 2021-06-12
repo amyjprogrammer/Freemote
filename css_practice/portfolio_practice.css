@@ -1,5 +1,77 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+ul > li {
+    padding: 5px 0;
+    color: gray;
+}
+
+ul li::before {
+    content: '➡️';
+    padding-right: 3px;
+}
+
 .card-container {
     width: 90%;
     margin: 20px auto;
-    background-color: skyblue;
+    background-color: skyblue;   
+    border-radius: 4px;
+   
 }
+
+.hero-image {
+    height: 200px;
+    background-image: url('https://assets.codepen.io/6060109/girl.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.name-title {
+    padding: 20px 10px;
+    color: white;
+}
+.name{
+    margin-bottom: 5px;
+    font-size: 2.75em;
+}
+
+.section {
+    background-color: white;
+    padding: 20px 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.section-title{
+    font-size: 1.5em;
+    border-bottom: 2px solid cornflowerblue;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.body-text {
+    color: gray;
+    padding-top: 10px;
+}
+.body-text > p {
+    padding: 7px 0px;
+}
+
+.section:last-of-type{
+    border-bottom: none;
+}
+
+
+
+
+
