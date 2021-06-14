@@ -55,8 +55,8 @@ body {
 
 .section h2  {
     padding-bottom: 15px;
-    font-weight: 300;
-    font-size: 1.25em;
+    font-weight: 400;
+    font-size: 1.15em;
    
 }
 
@@ -92,7 +92,7 @@ hr {
 
 .section-three {
     background-color: #267fe6;
-    height: 150px;
+    height: 200px;
     box-sizing: content-box;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
@@ -115,10 +115,121 @@ ul li::before {
     padding-right: 8px;
 }
 
+.contact-btns {
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
 .contact-btns li{
     display: inline-block;
     vertical-align: middle;
+    padding: 8px 15px;
+    margin: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
 }
+
+.contact-btns li a{
+    text-decoration: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 725px) {
+    .container {
+        width: 60%;
+        margin: 50px auto;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: row;
+        padding: 35px 35px;
+        vertical-align: top;
+        max-width: 100%;
+        position: relative;
+        box-sizing: border-box;
+    }
+
+    .section h2  {
+        display: inline-block;
+        padding-right: 20px;
+        font-weight: 400;
+        font-size: 1.15em;
+        vertical-align: top;
+        text-align: right;
+    }
+
+    .section-head {
+        width: 30%;
+        text-align: right;
+        padding-right: 15px;
+        border-right: 1px solid rgba(255, 255, 255, 0.507);
+    }
+
+
+    .text {
+        width: 70%;
+        padding-left: 30px;
+        box-sizing: border-box;
+    }
+
+    .section-three{
+        height: 225px;
+    }
+    
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 1680px) {
+    .container {
+        width: 45%;
+        margin: 80px auto;
+    }
+
+    .header-container{
+        height: 450px;
+    }
+
+    .resume-pic img{  
+        width: 175px;
+        height: 175px;
+        border-radius: 50%;
+    }
+    
+    .header-container h1 {
+        margin: 25px 0;
+        font-size: 3em;
+        font-weight: 400;
+    }
+
+    .header-container p {
+        font-size: 1.5em;
+    }
+
+    .section-one {
+        height: 225px;
+    }
+
+    .section {
+        font-size: 1.3em;
+        padding: 55px; 
+    }
+
+    .section-two {
+        height: 300px;
+    }
+
+    .section-three {
+        height: 325px;
+    }
+
+    .contact-btns li{
+        padding: 15px;
+    }
+}
+
+
 
 
 
