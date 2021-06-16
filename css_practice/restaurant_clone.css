@@ -13,10 +13,9 @@
 .container  {
     width: 815px;
     height: 650px;
-    background-color: red;
+    background-color: white;
     border: 2px solid black;
-    margin: auto;
-    
+    margin: auto;   
 }
 
 .title {
@@ -52,6 +51,8 @@
     background-color: rgb(51,51,51);
     color: white;
     height: 4%;
+    padding-right: 15px;
+    padding-top: 4px;
 }
 
 ul {
@@ -63,12 +64,61 @@ ul li {
     text-decoration: none;
     align-items: right;
     color: white;
+    border-right: 1px solid white;
+    padding-right: 1px;
+}
+
+ul li:nth-last-child(1) {
+    border-right: none;
 }
 
 ul li a {
     color: white;
     text-decoration: none;
-    padding: 2px;
-    padding-top: 3px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+ul li a:hover {
+    color: gray;
+}
+
+.text {
+    margin: 15px 40px 35px;
+    display: flex;
+    font-size: 10pt;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.text-image{
+    display: flex;
+}
+
+.text-image p {
+    width: 67%;
+}
+
+.text-image img {
+    width: 33%;
+    height: 75%;
+}
+
+.first-column {
+    width: 50%;
+    padding-right: 6px;
+}
+
+.second-column {
+    width: 50%;
+}
+
+.footer {
+    background-color: rgb(51,51,51);
+    color: white;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(51,51,51);
 }
 
