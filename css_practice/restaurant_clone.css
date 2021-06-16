@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.container  {
+    width: 815px;
+    height: 650px;
+    background-color: red;
+    border: 2px solid black;
+    margin: auto;
+    
+}
+
+.title {
+    height: 33%;
+    background-color: rgb(204, 102, 0);
+    border-bottom: 2px solid black;
+    display: flex;
+}
+
+.title img {    
+    width: 35%;
+    margin: 13px 0;
+}
+
+.border {
+    border-left: 2px solid black;
+}
+
+.title h1 {      
+    padding: 50px 75px;
+    font-size: 48px;
+    font-family: "Viner Hand ITC";
+}
+
+.title p {
+    font-family: "Viner Hand ITC";
+    font-weight: bold;
+    text-align: bottom;
+    padding-left: 150px;
+}
+
+.nav-bar {
+    background-color: rgb(51,51,51);
+    color: white;
+    height: 4%;
+}
+
+ul {
+    text-align: right;
+}
+
+ul li {
+    display: inline-block;
+    text-decoration: none;
+    align-items: right;
+    color: white;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+    padding-top: 3px;
+}
+
