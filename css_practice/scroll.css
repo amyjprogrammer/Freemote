@@ -20,6 +20,12 @@ section {
     height: 100vh;
 }
 
+.container-two{
+    scroll-snap-type: y proximity;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
 .one {
     background-color: teal;
 }
@@ -34,6 +40,18 @@ section {
 
 .four {
     background-color: chartreuse;
+}
+
+.new-one{
+    background-color: yellowgreen;
+}
+
+.new-two{
+    background-color: chocolate;
+}
+
+.new-three {
+    background-color: crimson;
 }
 
 
