@@ -1,0 +1,90 @@
+head {
+    padding: 0;
+    border: 0;
+}
+
+/*helps with the a tag and gallery jump, must be on the html tag */
+html {
+    scroll-behavior: smooth;
+    /*dark mode
+    background:black;
+    filter: invert(1) hue-rotate(180deg);
+    */
+}
+
+.one {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+button {
+    background-color: cornflowerblue;
+    padding: 10px 25px;
+    cursor:pointer;
+    animation: fade 1s ease forwards;
+}
+
+/* how to animate out the button */
+
+@keyframes fade{
+    from {
+        opacity: 1;
+        pointer-events: all;
+    }
+    to{
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+/* margin auto trick */
+div {
+    background-color: aquamarine;
+    height: 50vh;
+    width: 50%;
+    margin: auto;
+}
+
+.show {
+    background-color: orchid;
+}
+
+/* when p is highlighted it changes to selections below */
+p::selection {
+    background-color: rgba(124,51,131,0.5);
+    color: white;
+}
+
+/* change just the first letter */
+p::first-letter{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.second {
+    display: block;
+}
+/* dark mode */
+
+a {
+    font-size: 4rem;
+    color: rgb(94,42,46);
+}
+
+/* font-size for different screen sizes */
+@media screen and (max-width: 700px){
+    html {
+        font-size: 75%;
+    }
+}
+
+h2 { 
+    font-size: 4rem;
+    background: linear-gradient(to left, rgb(109, 14, 233), rgb(230, 106, 213));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+}
